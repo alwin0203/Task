@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Generator</title>
+    <script>
+        function generateCode() {
+            var name = document.getElementById("name").value;
+            var dob = document.getElementById("dob").value;
+
+            // Convert the name to ASCII
+            var asciiCode = 0;
+            for (var i = 0; i < name.length; i++) {
+                asciiCode += name.charCodeAt(i);
+            }
+
+            // Add 22092022 to the ASCII code
+            var bResult = asciiCode + 22092022;
+
+            // Add 25092022 to the DOB
+            var cResult = parseInt(dob) + 25092022;
+
+            // Display the result
+            document.getElementById("code").value = "B result: " + bResult + " + C result: " + cResult;
+        }
+    </script>
+</head>
+<body>
+    <h1>Code Generator</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+    <label for="dob">Date of Birth:</label>
+    <input type="text" id="dob"><br><br>
+    <button onclick="generateCode()">Generate</button><br><br>
+    <textarea id="code" rows="4" cols="50" readonly></textarea>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actors</title>
+    <link rel="stylesheet" href="style.css">
+
+    <head>
+
+        <script>
+            function changeImage(name) {
+                var imageElement = document.getElementById("displayedImage");
+                switch (name) {
+                    case "Dulquer Salman":
+                        imageElement.src = "images/DulquerSalmaan-18.jpg";
+                        break;
+                    case "Tovino":
+                        imageElement.src = "images/tovino.webp";
+                        break;
+                    case "JayaSurya":
+                        imageElement.src = "images/173556-3181933256839687830798915846075489787996724n.avif";
+                        break;
+
+                }
+            }
+
+        </script>
+    </head>
+
+<body>
+    <div class="main">
+
+        <div class="imgdiv">
+            <img id="displayedImage">
+        </div>
+        <div class="namediv">
+            <h1 onclick="changeImage('Dulquer Salman')" class="names">DULQUER</h1>
+            <h1 onclick="changeImage('Tovino')" class="names tovi">TOVINO</h1>
+            <h1 onclick="changeImage('JayaSurya')" class="names jaya">JAYASURYA</h1>
+        </div>
+
+    </div>
+</body>
+
+</html>

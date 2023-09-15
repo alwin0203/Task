@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(33, 34, 33);
+}
+
+.font {
+    color: white;
+    font-family: monospace;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.main {
+    text-align: center;
+}
+
+.bg {
+    background-color: rgb(177, 96, 55);
+    display: block;
+    margin: auto;
+    width: 200px;
+    padding: 35px 150px;
+
+    font-size: 40px;
+
+}
+
+.bgs {
+    background-color: rgb(220, 184, 153);
+    padding: 25px 60px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+button {
+    margin-top: 40px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    font-size: 30px;
+}

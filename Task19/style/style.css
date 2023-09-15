@@ -1,0 +1,53 @@
+body{
+    background-color: skyblue;
+}
+.main{
+   margin-top: 50px; 
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 5px 15px;
+    border-radius: 15px;
+    color:orangered ;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+.btn{
+    display: block;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color:orangered ;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.list{
+    font-size: 35px;
+    color: rgb(160, 42, 196);
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+h1{
+    color: brown;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight:900;
+}
+
+#textInput{
+    margin-top: 20px;
+    background-color: goldenrod;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border-color: goldenrod;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,121 @@
+body {
+    margin: 0
+}
+
+.nav-link {
+    color: white;
+}
+
+.video1 {
+    background: url(videos/vd1.mp4);
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    font-family: "avenue";
+}
+
+.mybtn {
+    border: none;
+    background: #dac50a;
+    color: #03043b;
+    cursor: pointer;
+    text-align: center;
+}
+
+.div1 {
+    align-items: center;
+}
+
+.col-md-6 {
+    align-items: center;
+    justify-content: center;
+}
+
+.news {
+    color: white;
+}
+
+.divone {
+    background-color: rgb(0, 171, 171);
+}
+
+.card-title {
+    color: #dac50a;
+
+
+}
+
+.card-text {
+
+    color: white;
+}
+
+.card-body {
+    background-color: rgb(18, 71, 71);
+
+}
+
+.card {
+
+    border: 3px solid rgb(0, 171, 171)
+}
+
+footer {
+    background-image: url(/images/img9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: auto;
+    ;
+}
+
+.table1 {
+    align-items: center;
+    color: rgb(18, 71, 71);
+    background-color: rgb(255, 223, 43);
+}
+
+.footerh {
+    padding-bottom: 400px;
+    padding-top: 100px;
+
+}
+
+.th {
+    width: 300px;
+
+}
+
+/* .img3 {
+    background-image: url(/images/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 640px 320px;
+    align-items: center;
+} */
+
+.img4 {
+    background-image: url(/images/img4.jpg);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 640px 320px;
+    align-items: center;
+}
+
+.img5 {
+    background-image: url(/images/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 640px 320px;
+    align-items: center;
+}
+

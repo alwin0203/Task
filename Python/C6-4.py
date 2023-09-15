@@ -1,0 +1,10 @@
+a=open("file2.txt","w")
+a.write(input("Enter The Name : "))
+a.write("\n")
+a.write(input("Enter The Designation : "))
+a.write("\n")
+a.write(input("Enter The Age : "))
+a.close()
+
+a=open("file2.txt","r")
+print(a.read())

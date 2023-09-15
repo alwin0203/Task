@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+.divone{
+   text-align: center;
+   background-color: #6943FF;
+   padding-bottom: 50px;
+   padding-top: 1px;
+   margin-left: 350px;
+    margin-right: 350px;
+}
+#inputNumber{
+    max-width: 60px;
+    font-size: 50px;
+    background: none;
+    border-color: white;
+    border-radius: 5px;
+}
+button{
+    display: block;
+    margin: auto;
+    width: auto;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+    color: white;
+}
+.divtwo{
+    text-align: center;
+    background-color:#1F2937 ;
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.length{
+    background-color: #273549;
+    padding:20px 100px 30px 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.volume{
+    background-color: #273549;
+    padding:20px 100px 30px 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.mass{
+    background-color: #273549;
+    padding:20px 100px 30px 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

@@ -1,0 +1,6 @@
+a=(1,2,3,4,5,6,7,8,9,10)
+print("orginal list =",a)
+b=max (a)
+print("Maximum =",b)
+c=min (a)
+print("Minimum =",c)

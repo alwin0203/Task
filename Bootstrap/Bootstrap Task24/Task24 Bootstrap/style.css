@@ -1,0 +1,123 @@
+body{
+    margin:0
+}
+body, html { overflow-x: hidden;
+  
+ }
+
+ .container-fluid{
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+ }
+
+.nav-link
+{color:white ;
+}
+.video1{
+    background: url(videos/vd1.mp4);
+    margin-bottom: 0%;
+}
+video {
+   max-width:100%;
+    height: auto;
+ ;
+  }
+  .content {
+    position:absolute;
+    color: white;
+    bottom: 0;
+    font-family: "avenue";
+   }
+
+    .mybtn {
+         border: none;
+        background: #dac50a;
+        color: #03043b;
+        cursor: pointer;
+        text-align: center;}
+
+      .div1{
+        align-items: center;
+        margin-top: -6px;
+      }
+      .col-md-6{
+        align-items: center;
+        justify-content: center;
+      }
+    .news{
+      color: white;
+    }
+    /* .divone{
+      background-color: rgb(0,171,171); */
+    
+    .card-title{
+      color: #dac50a;
+     
+      
+    }
+    .card-text{
+      
+      color: white;
+    }
+    .card-body{
+      background-color: rgb(18,71,71);
+      
+    }
+   
+
+    footer{
+      background-image: url(images/img9.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      margin: auto;
+     ;
+    }
+    .table1{
+      align-items: center;
+  color: rgb(18,71,71);
+background-color:rgb(255,223,43) ;
+;}
+.footerh{
+  padding-bottom: 400px;
+  padding-top: 100px; }
+
+
+   
+    .th{
+width: 300px;
+
+    }
+
+    .sec3{
+      background-image: url(images/image3.avif); 
+      background-repeat: no-repeat;
+      position:relative;
+      background-size: 40rem;
+      height:80vh;
+      align-items: center;
+    }
+    .sec4{
+      background-image: url(images/image4.webp); 
+        background-repeat: no-repeat;
+      position:relative;
+      background-size: 40rem;
+      height:80vh;
+      align-items: center;
+    }
+    .sec5{
+      background-image: url(images/image5.jpg); 
+      background-repeat: no-repeat;
+      align-items: center;
+      position:relative;
+      background-size: 40rem;
+      height:80vh;}
+      .card{
+        text-align: center;
+        justify-content: center;
+        position:relative;
+        margin-top: 50%;
+        margin-left: 25%;
+        
+      }

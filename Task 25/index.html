@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>License-code-generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function generateCode() {
+
+            var name = document.getElementById("name").value;
+            var dob = document.getElementById("dob").value;
+
+
+            var asciiCode = 0;
+            for (var i = 0; i < name.length; i++) {
+                asciiCode += name.charCodeAt(i);
+            }
+
+            var resultA = asciiCode + 22092022;
+
+
+            var resultB = parseInt(dob) + 25092022;
+
+
+            var Result = resultA + resultB;
+
+
+            document.getElementById("codeResult").innerText = Result;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+
+        <h1 class="font">License Code Generator</h1>
+
+        <h2 class=" font bg" id="codeResult"></h2>
+
+        <h2 class="font" for="name">Your Name</h2>
+
+        <input class="font bgs" type="text" id="name">
+
+        <h2 class="font" for="dob">Your DOB (eg: DDMMYYYY, 16121985)</h2>
+
+        <input class="font bgs" type="number" id="dob">
+        <br>
+        <button onclick="generateCode()">Generate</button>
+        <br>
+    </div>
+
+
+</body>
+
+</html>

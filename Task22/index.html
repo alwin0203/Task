@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="addButton">Add Item</button>
+    <button id="removeButton">Remove All</button>
+    <ol id="itemList"></ol>
+    <script>
+        var addButton = document.getElementById('addButton');
+        var removeButton = document.getElementById('removeButton');
+        var itemList = document.getElementById('itemList');
+        addButton.addEventListener('click', function () {
+            var item = prompt('Enter an item:');
+            if (item) {
+                localStorage.setItem('item', item);
+                var li = document.createElement('li');
+                li.textContent = item;
+                itemList.appendChild(li);
+            }
+        });
+        removeButton.addEventListener('click', function () {
+            localStorage.removeItem('item');
+            itemList.innerHTML = '';
+        });
+    </script>
+</body>
+
+</html>

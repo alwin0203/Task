@@ -1,0 +1,36 @@
+body{
+    background-color: #1F2937;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.tag{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+.div-one{
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+    padding-left: 47px;
+    padding-right: 65px;
+    padding-top: 30px;
+    border-radius: 10px;
+
+}
+.maindiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#error{
+    color: red;
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 900;
+}
